@@ -1,0 +1,30 @@
+@"
+# Build output
+**/target/
+
+# Java
+*.class
+*.jar
+*.war
+
+# Maven wrapper jar
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Environment files (NEVER push these)
+.env
+**/.env
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+"@ | Out-File -FilePath "C:\Users\hanas\Downloads\ATS-Project\.gitignore" -Encoding utf8

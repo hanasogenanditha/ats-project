@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: auth-service
+          uri: http://application-service:8081
+          predicates:
+            - Path=/auth/**
+
+        - id: job-service
+          uri: http://job-service:8084
+          predicates:
+            - Path=/jobs/**
+
+        - id: application-service
+          uri: http://application-service:8081
+          predicates:
+            - Path=/apply/**
+
+        - id: screening-service
+          uri: http://screening-service:8082
+          predicates:
+            - Path=/screen/**
+
+        - id: notification-service
+          uri: http://notification-service:8083
+          predicates:
+            - Path=/notify/**
