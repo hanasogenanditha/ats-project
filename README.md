@@ -2,7 +2,7 @@
 
 A **production-style, distributed Applicant Tracking System** built with Spring Boot microservices, Kafka, Redis, PostgreSQL, and real AI-powered resume screening using HuggingFace — fully containerized with Docker.
 
-> Not just a CRUD app — a real distributed system with event-driven architecture, async processing, and intelligent candidate screening.
+> Designed as a distributed, event-driven system with asynchronous processing and AI-based candidate screening.
 
 ---
 
