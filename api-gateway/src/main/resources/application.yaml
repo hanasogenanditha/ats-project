@@ -31,3 +31,4 @@ spring:
           uri: http://notification-service:8083
           predicates:
             - Path=/notify/**
+  

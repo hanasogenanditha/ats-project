@@ -55,3 +55,4 @@ public class Application {
         SUBMITTED, SCREENING_IN_PROGRESS, SCREENING_COMPLETED, REJECTED, SHORTLISTED
     }
 }
+//review
