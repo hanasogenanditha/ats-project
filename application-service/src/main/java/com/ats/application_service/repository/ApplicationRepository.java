@@ -12,3 +12,4 @@ public interface ApplicationRepository extends JpaRepository<Application, Long> 
     List<Application> findByCandidateEmail(String candidateEmail);
     List<Application> findByStatus(Application.ApplicationStatus status);
 }
+//review

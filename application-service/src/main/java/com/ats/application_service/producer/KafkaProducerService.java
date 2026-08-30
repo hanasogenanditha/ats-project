@@ -14,3 +14,4 @@ public class KafkaProducerService {
         kafkaTemplate.send("application.submitted", message);
     }
 }
+//review

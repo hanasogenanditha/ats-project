@@ -13,3 +13,4 @@ public class ScreeningResultEvent {
     private Long applicationId;
     private String candidateEmail;
 }
+//review
